@@ -1,0 +1,26 @@
+#container {
+  width: 400px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list{
+    margin: 15px 0px;
+}
+.list > li{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
